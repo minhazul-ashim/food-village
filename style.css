@@ -195,6 +195,8 @@ section {
     width: 80%;
     margin: auto;
     border: 1px solid #999;
+    box-shadow: 8px 8px 20px rgb(167, 157, 157);
+    border-radius: 5px;
 }
 
 .follower-box {
@@ -217,3 +219,73 @@ section {
 
 
 /*Community section*/
+
+.commu-header {
+
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(to right, #00a2cf, #71f17e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subs-form {
+
+    width: 70%;
+    margin: auto;
+    padding: 10% 5%;
+    box-shadow: 20px 20px 90px rgb(192, 189, 189);
+}
+
+.subs-form input {
+
+    display: block;
+    margin: auto;
+    padding: 2% 7%;
+    margin-bottom: 2%;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.subs-submit {
+
+    background: rgb(30, 226, 200);
+    font-weight: 700;
+    margin-top: 6% !important;
+    border: none;
+    box-shadow: 3px 3px 20px rgb(165, 162, 162);
+    cursor: pointer;
+}
+
+
+/*Footer*/
+
+footer {
+
+    text-align: center;
+    background: #222;
+}
+
+footer h3 {
+    color: white;
+
+}
+
+footer span {
+
+    color: yellow;
+    font-size: 400;
+
+}
+
+footer h4 {
+
+    color:white;
+    font-weight: 100;
+}
+
+footer p {
+
+    font-weight: 100;
+    color: #777;
+}
