@@ -7,7 +7,7 @@ body {
 
 section {
 
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 /* Introduction Section */
@@ -124,3 +124,96 @@ section {
 
 
 /*Recipe Section*/
+
+.recipe-header {
+
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(to right, #e7b747, #ff2f36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.recipe-para {
+
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #777;
+    
+}
+
+.recipe-container {
+
+    display: flex;
+    padding: 5%;
+
+}
+
+.recipe-box {
+
+    width: 30%;
+    padding: 2%;
+    border: 1px solid #999;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(168, 163, 163);
+}
+
+.recipe-box:last-child {
+
+    margin-right: 0 !important;
+}
+
+.recipe-img img {
+
+    width: 100%;
+}
+
+.recipe-text h1 {
+
+    color: #333;
+}
+
+.recipe-text p {
+
+    color: #555;
+}
+
+
+
+/*Followers Section*/
+
+
+.follower-container {
+
+    display: flex;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border: 1px solid #999;
+}
+
+.follower-box {
+
+    width: 34%;
+}
+
+.follower-box h2, h3 {
+
+    color: #333;
+}
+
+.follower-box a {
+
+    padding: 5px 12px;
+    border-radius: 50px;
+    color: white;
+    background: blueviolet;
+}
+
+
+/*Community section*/
