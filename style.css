@@ -5,11 +5,6 @@ body {
 }
 
 
-section {
-
-    margin-bottom: 5%;
-}
-
 /* Introduction Section */
 
 #intro {
@@ -35,7 +30,7 @@ section {
 
 .intro-para h1 {
 
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 300;
     color: #333;
 }
@@ -48,7 +43,7 @@ section {
 
 .intro-para p {
 
-    font-size: 20px;
+    font-size: 25px;
     font-weight:500;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #444;
@@ -75,7 +70,7 @@ section {
     display: flex;
     background: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .owner-img {
@@ -86,7 +81,7 @@ section {
 .owner-img img {
 
     width: 60%;
-    padding: 5% 20% 20%;
+    padding: 5% 20% 0 20%;
 
 }
 
@@ -101,13 +96,14 @@ section {
 
     color: #333;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .about-para p {
 
     color: #555;
     font-weight: 100;
+    font-size: 30px;
 }
 
 .about-para a {
@@ -117,7 +113,7 @@ section {
     background: linear-gradient(to right, #21304d, #335377);
     color: white;
     font-weight: 100;
-    padding: 3% 5%;
+    padding: 3% 7%;
     border-radius: 20px;
 }
 
@@ -227,14 +223,31 @@ section {
     background-image: linear-gradient(to right, #00a2cf, #71f17e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 10%;
 }
 
 .subs-form {
 
-    width: 70%;
-    margin: auto;
-    padding: 10% 5%;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3% 5%;
     box-shadow: 20px 20px 90px rgb(192, 189, 189);
+    border-radius: 10px;
+}
+
+.subs-form p {
+
+    text-align: center;
+    color: #333;
+}
+
+
+.subs-form a {
+
+    text-decoration: none;
+    color: orangered;
 }
 
 .subs-form input {
@@ -242,7 +255,7 @@ section {
     display: block;
     margin: auto;
     padding: 2% 7%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     border: 1px solid #999;
     border-radius: 5px;
 }
@@ -253,7 +266,7 @@ section {
     font-weight: 700;
     margin-top: 6% !important;
     border: none;
-    box-shadow: 3px 3px 20px rgb(165, 162, 162);
+    box-shadow: 3px 3px 20px rgb(38, 196, 196);
     cursor: pointer;
 }
 
@@ -263,29 +276,31 @@ section {
 footer {
 
     text-align: center;
-    background: #222;
+    margin-top: 10%;
 }
 
 footer h3 {
-    color: white;
+    color:  #222;
+    font-size: 24px;
 
 }
 
 footer span {
 
-    color: yellow;
+    color: orangered;
     font-size: 400;
 
 }
 
 footer h4 {
 
-    color:white;
+    color:#333;
     font-weight: 100;
 }
 
 footer p {
 
     font-weight: 100;
-    color: #777;
+    color: #333;
+    font-size: 12px;
 }
