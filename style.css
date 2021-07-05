@@ -1,0 +1,126 @@
+body {
+
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+section {
+
+    margin-bottom: 2%;
+}
+
+/* Introduction Section */
+
+#intro {
+
+    display: flex;
+    padding: 5% 5%;
+}
+
+.intro-para {
+
+    width: 50%;
+}
+
+.intro-img img {
+
+    width: 100%;
+}
+
+.intro-img {
+
+    width: 50%;
+}
+
+.intro-para h1 {
+
+    font-size: 35px;
+    font-weight: 300;
+    color: #333;
+}
+
+.intro-para span {
+
+    color: orangered;
+    display: block;
+}
+
+.intro-para p {
+
+    font-size: 20px;
+    font-weight:500;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #444;
+}
+
+.intro-para a {
+
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(13, 165, 165), rgb(207, 37, 223));
+    color: white;
+    font-weight: 100;
+    padding: 3% 5%;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+
+/*About Us Section*/
+
+
+#about-us {
+
+    display: flex;
+    background: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.owner-img {
+
+    width: 50%;
+}
+
+.owner-img img {
+
+    width: 60%;
+    padding: 5% 20% 20%;
+
+}
+
+.about-para {
+
+    width: 50%;
+    padding: 2% 5%;
+    text-align: justify;
+}
+
+.about-para h1 {
+
+    color: #333;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.about-para p {
+
+    color: #555;
+    font-weight: 100;
+}
+
+.about-para a {
+
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(to right, #21304d, #335377);
+    color: white;
+    font-weight: 100;
+    padding: 3% 5%;
+    border-radius: 20px;
+}
+
+
+
+/*Recipe Section*/
