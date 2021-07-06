@@ -5,7 +5,11 @@ body {
 }
 
 
+
 /* Introduction Section */
+
+
+
 
 #intro {
 
@@ -62,7 +66,9 @@ body {
 }
 
 
+
 /*About Us Section*/
+
 
 
 #about-us {
@@ -110,7 +116,7 @@ body {
 
     text-decoration: none;
     display: inline-block;
-    background: linear-gradient(to right, #21304d, #335377);
+    background: linear-gradient(to right, #3b5b9b, #5a93d3);
     color: white;
     font-weight: 100;
     padding: 3% 7%;
@@ -120,6 +126,8 @@ body {
 
 
 /*Recipe Section*/
+
+
 
 .recipe-header {
 
@@ -183,6 +191,7 @@ body {
 /*Followers Section*/
 
 
+
 .follower-container {
 
     display: flex;
@@ -212,6 +221,7 @@ body {
     border-radius: 50px;
     color: white;
     background: blueviolet;
+    text-decoration: none;
 }
 
 
@@ -221,7 +231,7 @@ body {
 
     text-align: center;
     font-size: 40px;
-    background-image: linear-gradient(to right, #00a2cf, #71f17e);
+    background-image: linear-gradient(to right, #00a2cf, #24ff3a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 10%;
