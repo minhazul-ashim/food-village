@@ -15,6 +15,9 @@ body {
 
     display: flex;
     padding: 5% 5%;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro-para {
@@ -191,7 +194,6 @@ body {
 /*Followers Section*/
 
 
-
 .follower-container {
 
     display: flex;
@@ -277,12 +279,14 @@ body {
     font-weight: 700;
     margin-top: 6% !important;
     border: none;
-    box-shadow: 3px 3px 20px rgb(38, 196, 196);
+    box-shadow: 3px 3px 10px grey;
     cursor: pointer;
 }
 
 
 /*Footer*/
+
+
 
 footer {
 
