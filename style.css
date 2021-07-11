@@ -419,6 +419,7 @@ footer p {
     .featured-item {
 
         margin-bottom: 2%;
+        width: 60%;
     }
 
     .item-order a {
@@ -437,6 +438,7 @@ footer p {
     .recipe-box {
 
         margin-bottom: 2%;
+        width: 60%;
     }
 
     .intro-para h1, .about-para h1  {
@@ -475,6 +477,7 @@ footer p {
     .featured-item {
 
         margin-bottom: 2%;
+        width: 60%;
     }
 
     .item-order a {
@@ -493,6 +496,7 @@ footer p {
     .recipe-box {
 
         margin-bottom: 2%;
+        width: 60%;
     }
 
     .intro-para h1, .about-para h1  {
@@ -530,6 +534,7 @@ footer p {
     .featured-item {
 
         margin-bottom: 2%;
+        width: 60%;
     }
 
     .item-order a {
@@ -548,6 +553,7 @@ footer p {
     .recipe-box {
 
         margin-bottom: 2%;
+        width: 60%;
     }
 
     .intro-para h1, .about-para h1  {
@@ -573,36 +579,6 @@ footer p {
     .owner-img img {
 
         width: 60%;
-    }
-
-    .featured-container {
-
-        display: grid;
-        grid-template-columns: 1;
-        place-items: center;
-    }
-
-    .featured-item {
-
-        margin-bottom: 2%;
-    }
-
-    .item-order a {
-
-        margin-bottom: 3%;
-    }
-
-    .recipe-container {
-
-        display: grid;
-        grid-template-columns: 1;
-        place-items: center;
-        text-align: justify;
-    }
-
-    .recipe-box {
-
-        margin-bottom: 2%;
     }
 
     .intro-para h1, .about-para h1  {
